@@ -1,0 +1,626 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+html{
+  background:#fff !important;
+}
+body{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5;
+  font-size: 14px;
+  
+}
+h2,h3,h3{
+  font-weight: 500 !important;
+}
+a{
+  text-decoration: none !important;
+}
+p{
+  font-weight: 300 !important;
+}
+.container{
+  width: 90% !important;
+  margin: 0 auto;
+}
+.text-grey{
+  color:#555;
+}
+.text-black{
+  color:#000;
+}
+.text-light{
+  font-weight: 300 !important;
+}
+.text-center{
+  text-align: center !important;
+}
+.text-medium{
+  font-weight: 500 !important;
+}
+.text-bold{
+  font-weight: 600 !important;
+}
+
+/* small header */
+#small_header{
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  z-index: 1000;
+  position:fixed !important;
+}
+.small_sub_header{
+  display: flex;
+  flex-wrap: wrap;
+}
+.social_icon{
+  font-size: 20px;
+}
+.social_icon a{
+  color:#000;
+}
+#small_header .left{
+  flex: 1;
+}
+#small_header .right{
+
+  float: right;
+} 
+.currency, .language{
+  font-size: 14px;
+}
+.right a i{
+  font-size: 10px;
+}
+/* header */
+header{
+  position: fixed;
+  margin-top:50px;
+  z-index: 1000;
+  height:100px;
+  width: 100%;
+  background-color: #fff;
+  line-height: 100px;
+}
+header .wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+header #logo{
+  flex: 0.8;
+}
+header nav{
+  flex: 2;
+}
+header nav a{
+  padding: 0px 15px 0px 15px;
+  font-weight: 400;
+  color:#555;
+}
+header nav a.active{
+  color:#000;
+  font-weight: 600;
+}
+header #login a{
+  padding: 0px 15px 0px 15px;
+  font-size: 20px;
+  color:#000;
+}
+
+/* slider */
+.owl-carousel{
+  padding-top:150px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+  margin-top: -39px !important;
+  z-index: 1;
+  position: absolute !important;
+  left: 45% !important;
+}
+.home_slider{
+  height: 630px;
+  background:#EFEBEB !important;
+}
+.slider_wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+.slider_wrapper .slider_left{
+  flex:1;
+  margin-top: 15%;
+  margin-left: 20px;
+  width: 40%;
+}
+.slider_left .offer{
+  color:red;
+}
+.slider_wrapper .slider_right{
+  flex:1;
+  width: 60% !important;
+  margin-top:5%;
+}
+.promo_text{
+  width: 400px;
+}
+#shop{
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+}
+#shop .offer{
+  flex: 1;
+}
+#btn{
+  width: 100px;
+  background-color: #000;
+  border:none;
+  color: #fff;
+  font-weight: 200;
+}
+.slider_img{
+  width:800px !important;
+  height: auto;
+}
+/* new arrival */
+#new_arrival{
+  padding-top:150px;
+  padding-bottom:20px;
+  width: 100%;
+}
+.arrival_filter{
+  margin:0 auto;
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+.arrival_item{
+  padding: 5px 20px 5px 20px;
+  font-size: 14px;
+  color:#000;
+  margin: 5px 10px 5px 10px;
+}
+.arrival_item.active{
+  background-color: #000 !important;
+  color: #fff;
+}
+.arrival_item:hover{
+  background-color: #000 !important;
+  color: #fff;
+}
+#arrival_product{
+  display: flex;
+  flex-wrap: wrap;
+}
+#arrival_product div{
+  flex:1;
+}
+.product_cart{
+  height: 400px;
+  flex:1;
+  margin:0 auto;
+  padding: 20px !important;
+}
+.product_image{
+  width: 80%;
+  height: 170px;
+  background:#f7f7f7;
+  padding:30px
+}
+.product_image img{
+  width: 100%;
+  height: auto;
+}
+.proudct_color{
+  flex:1;
+  padding-top:10px !important;
+}
+.color_wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+i.blue{
+  color:blue;
+}
+i.red{
+  color:green;
+}
+i.yellow{
+  color:rgb(255, 111, 0);
+}
+.red{
+  color:red;
+}
+/* end new arrival */
+/* banner */
+.banner_wrapper{
+  background:#f7f7f7;
+}
+.banner{
+  display:flex;
+  flex-wrap: wrap;
+  height: 500px;
+}
+.banner .left{
+  margin-top:10%;
+  flex:1;
+}
+.banner .right{
+  flex:1;
+}
+.banner .right img{
+  width: 90%;
+  height: auto;
+  margin:0 auto;
+}
+.banner_chip{
+  height:30px;
+  width: 120px;
+  padding:5px 20px 5px 20px;
+  background: #000;
+  color:#fff;
+  line-height: 30px;
+  border-radius: 5px;
+}
+.banner h1{
+  font-size: 55px;
+}
+/*  end banner */
+
+/* get in touch (subscribe) */
+.subscribe_wrapper{
+  padding-top:50px;
+  padding-bottom:40px;
+}
+.subscribe{
+  display:flex;
+  flex-wrap: wrap;
+}
+.subscribe .left{
+  height:100px;
+  flex:1;
+}
+.subscribe .left h1{
+  font-size:35px;
+}
+.subscribe .right{
+  flex:1;
+}
+.input{
+  border:none;
+  height: 49px;
+  border:1px solid black;
+  text-indent: 20px;
+  width: 400px;
+  color:#000;
+}
+#button{
+  height: 50px;
+  width: 150px;
+  border:1px solid #000;
+  background:#000;
+  color:#fff;
+  font-size:15px;
+  text-transform: uppercase;
+}
+footer{
+  height: 70px;
+  width: 100%;
+  background:#EFEBEB;
+}
+.footer_wrapper{
+  display:flex;
+  flex-wrap: wrap;
+}
+.footer_wrapper .left{
+  flex:1;
+  line-height: 70px;
+}
+.footer_wrapper .center{
+  flex:1;
+  line-height: 70px;
+}
+.footer_wrapper .right{
+  flex:1;
+  line-height: 70px;
+}
+.footer_wrapper .right .social_icon a i{
+  font-size: 20px;
+}
+.text-right{
+  text-align: right;
+}
+.load_btn{
+  width: 120px;
+  height: 40px;
+  background:#000;
+  color:#fff;
+}
+/* end get in touch (subscribe) */
+
+/* user reviews */
+.user_profile{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.user_profile img{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border:10px solid #ebebeb;
+}
+.user_review_text{
+  flex:1;
+  padding-left: 40px;
+  margin-top:20px;
+}
+/* end user reviews */
+/* contact us */
+.map_iframe{
+  height: 50vh;
+  background:#ddd;
+}
+.textarea{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5;
+  font-size: 14px;
+  border:none;
+  height: 200px;
+  border:1px solid black;
+  text-indent: 20px;
+  color:#000;
+  width: 820px;
+  line-height: 50px;
+}
+#contact_form{
+  margin-top:10%;
+}
+#contact_form input{
+  width: 48%;
+}
+#contact_form textarea{
+  width: 98%;
+}
+#contact_form input, textarea{
+  border:1px solid #aaa !important;
+}
+.login input, textarea{
+  border:1px solid #aaa !important;
+}
+#contact_button{
+  height: 50px;
+  width: 200px;
+  border:1px solid #000;
+  background:#000;
+  color:#fff;
+  font-size:15px;
+  text-transform: uppercase;
+}
+/* end contact us */
+/* login */
+.login{
+  padding-top:150px;
+  height: 100vh;
+  width: 100vw;
+}
+.login_form{
+  margin-top:8%;
+}
+/*  end login */
+
+/*  media query (responsive) */
+#mobile {
+  display: none !important;
+}
+@media(max-width:568px){
+  .container{
+    width: 95%;
+  }
+  .social_icon{
+    font-size: 12px;
+  }
+  #desktop{
+    display: none !important;
+  }
+  #mobile{
+    display: block !important;
+    position: fixed;
+    margin-top:50px;
+    z-index: 1000;
+    height:150px;
+    width: 100%;
+    background-color: #fff;
+    line-height: 80px;
+  }
+  .mobile_header{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .mobile_header .left{
+    flex: 1;
+  }
+  #mobile nav{
+    overflow: scroll;
+    margin-left: 15px;
+  }
+  #mobile nav a{
+    font-size: 12px;
+    padding: 5px;
+  }
+  .owl-carousel{
+    padding-top:200px;
+  }
+  .promo_text{
+    width: auto;
+  }
+  #shop{
+    width: 300px;
+  }
+  .slider_right img{
+    width: 400px !important;
+  }
+  .subscribe_wrapper #button{
+    width: 100px !important;
+    font-size: 14px;
+  }
+  .subscribe_wrapper .input{
+    width: 255px !important;
+  }
+  .banner .right img{
+    display: none;
+  }
+
+  footer .left{
+    display: none;
+  }
+  footer .center{
+    font-size: 10px !important;
+  }
+  .arrival_item {
+    padding: 5px 5px 5px 5px !important;
+    font-size: 14px;
+    margin-left:0 !important;
+    margin-right:0 !important;
+    color: #000;
+    height: 50px !important;
+  }
+  #new_arrival{
+    padding-top:180px;
+    padding-bottom:20px;
+    width: 100%;
+  }
+  #contact_form input{
+    width: 100%;
+  }
+  #contact_form textarea{
+    width: 100%;
+  }
+  #contact_button{
+    width: 100%;
+  }
+  .login_form input{
+    width: 100% !important;
+  }
+}
+/*  end media query (responsive) */
+
+/* popup */
+.instructions {
+  text-align:center;
+  font-size:20px;
+  margin: 15vh;
+}  
+
+
+/*   This is the background overlay   */
+.backgroundOverlay {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #000000;
+	opacity: .85;
+	filter: alpha(opacity=85);
+	-moz-opacity: .85;
+	z-index: 101;
+	display: none;
+}
+/*   This is the Popup Window   */
+.delayedPopupWindow {
+	display: none;
+	position: fixed;
+	width: auto;
+	max-width: 480px;
+	height: 310px;
+	top: 50%;
+	left: 50%;
+	margin-left: -260px;
+	margin-top: -180px;
+	background-color: #fff;
+	border: 2px solid #333;
+	z-index: 102;
+	padding: 10px 20px;
+}
+/*   This is the closing button  */
+#btnClose {
+	width:100%;
+	display: block;
+	text-align: right;
+	text-decoration: none;
+	color: #000;
+}
+/*   This is the closing button hover state  */
+#btnClose:hover {
+	color: #c90c12;
+}
+/*   This is the description headline and paragraph for the form   */
+#delayedPopup > div.formDescription {
+	float: left;
+	display: block;
+	width: 44%;
+	padding: 1% 3%;
+	font-size: 18px;
+	color: #666;
+	clear: left;
+}
+/*   This is the styling for the form's headline   */
+
+/* 
+////////// MailChimp Signup Form //////////////////////////////
+*/
+
+/*   This is the signup form body  */
+#delayedPopup #mc_embed_signup {
+	float: left;
+	width: 47%;
+	padding: 1%;
+	display: block;
+	font-size: 16px;
+	color: #666;
+	margin-left: 1%;
+}
+/*   This is the styling for the signup form inputs  */
+#delayedPopup #mc-embedded-subscribe-form input {
+	width: 95%;
+	height: 30px;
+	font-size: 18px;
+	padding: 3px;
+  margin-bottom: 5px;
+}
+/*   This is the styling for the signup form inputs when they are being hovered with the mouse  */
+#delayedPopup #mc-embedded-subscribe-form input:hover {
+	border:solid 2px #000;
+	box-shadow: 0 1px 3px #AAAAAA;
+}
+/*   This is the styling for the signup form inputs when they are focused  */
+#delayedPopup #mc-embedded-subscribe-form input:focus {
+	border:solid 2px #000;
+	box-shadow: none;
+}
+/*   This is the styling for the signup form submit button  */
+#delayedPopup #mc-embedded-subscribe {
+	width: 100%!important;
+	height: 40px!important;
+	margin: 10px auto 0 auto;
+	background: #000;
+	border: none;
+	color: #fff;
+}
+/*   This is the styling for the signup form submit button hover state  */
+#delayedPopup #mc-embedded-subscribe:hover {
+	background: #000;
+	color: #fff;
+	box-shadow:none!important;
+	cursor: pointer;
+}
+/* end popup */
