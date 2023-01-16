@@ -91,7 +91,12 @@ header .wrapper{
   flex-wrap: wrap;
 }
 header #logo{
-  flex: 0.8;
+  flex: 1;
+  height: 100px;
+}
+header #logo img{
+  width: 156px;
+  height: 105px;
 }
 header nav{
   flex: 2;
@@ -361,7 +366,7 @@ footer{
 /* end user reviews */
 /* contact us */
 .map_iframe{
-  height: 50vh;
+  height: 70vh;
   background:#ddd;
 }
 .textarea{
@@ -530,7 +535,7 @@ footer{
 	padding: 0;
 	background: #000000;
 	opacity: .85;
-	filter: alpha(opacity=85);
+	filter: alpha(opacity=60);
 	-moz-opacity: .85;
 	z-index: 1001;
 	display: none;
