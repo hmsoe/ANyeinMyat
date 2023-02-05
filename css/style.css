@@ -301,8 +301,16 @@ i.yellow{
   width: 400px;
   color:#000;
 }
+.search{
+  border:none;
+  height: 49px;
+  border:1px solid black;
+  text-indent: 20px;
+  width: 600px;
+  color:#000;
+}
 #button{
-  height: 50px;
+  height: 51px;
   width: 150px;
   border:1px solid #000;
   background:#000;
@@ -423,6 +431,9 @@ footer{
   display: none !important;
 }
 @media(max-width:568px){
+  .search{
+    width: 300px !important;
+  }
   .container{
     width: 95%;
   }
@@ -627,5 +638,8 @@ footer{
 	color: #fff;
 	box-shadow:none!important;
 	cursor: pointer;
+}
+.pointer{
+  cursor:pointer !important;
 }
 /* end popup */

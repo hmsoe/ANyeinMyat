@@ -77,6 +77,7 @@
                     <!-- end menu-->
                     <!-- login -->
                     <div id="login">
+                    
                         <a href="whish_lists.html">
                             <i class="fa-solid fa-dolly"></i>
                         </a>
@@ -227,9 +228,13 @@
                         <a href="#" class="arrival_item">Gas Cooker</a>
                         <a href="#" class="arrival_item">Bags</a>
                         <a href="#" class="arrival_item"> Chair</a>
-                    
                     </div>
+                    
                 </div>
+            </div>
+            <div class="text-center" style="margin-bottom:20px">
+                <input type="text"  placeholder="Enter your product name ..." name="email" class="search">
+                <button type="submit" id="button"><i class="fa-regular fa-magnifying-glass"></i></button>
             </div>
             <div class="container">
                 <div id="arrival_product">
@@ -356,7 +361,9 @@
             </div>
         </div>
         <!-- end get in touch-->
-
+        <!-- weather widget -->
+        <a class="weatherwidget-io" href="https://forecast7.com/en/40d71n74d01/new-york/" data-label_1="NEW YORK" data-label_2="WEATHER" data-theme="marine" >NEW YORK WEATHER</a>
+        <!-- end weather widget-->
         <!-- footer -->
         <footer>
             <div class="container">
@@ -479,6 +486,7 @@
                 $("#bkgOverlay").fadeOut(400);
                 $("#delayedPopup").fadeOut(300);
             }
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
 
         </script>
         <!-- end slider pulgin-->
